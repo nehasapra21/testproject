@@ -1,0 +1,39 @@
+.sidenav {
+  height: 100%;
+  width: 100vw;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  right: 0;
+  background-color: #edeff4;
+  overflow-x: hidden;
+  transition: 0.9s;
+  transform: translateX(100vw);
+}
+
+a.closebtn {
+  position: relative;
+  font-size: 40px;
+  text-decoration: none;
+  color: #fdbd5c;
+}
+
+a.closebtn:hover {
+  color: #fdbd5c;
+}
+.back-home-btn {
+  font-weight: bolder;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0px 3px 6px #00000029;
+  background-color: #494989;
+  padding: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+}
